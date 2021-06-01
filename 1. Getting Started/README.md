@@ -1,6 +1,6 @@
-#GETTING STARTED
+# GETTING STARTED
 
-##Packages
+## Packages
 
     Every Go program is made up of packages.
 
@@ -9,7 +9,7 @@
     This is why we need to declare our code as the main package
 
 
-##Imports
+## Imports
 
     => Apart from main, Go has many packages that can be imported and used in the code to accomplish different tasks.
     One of the most popular packages is "fmt", which stands for format, and provides input and output functionality.
