@@ -25,3 +25,12 @@
     
     => Similar to other programming languages such as Java or C++, func main() is the entry point of our program.
     It is the function that gets executed when we run our program.
+
+## Comments
+    For single line comment: //This is a comment
+    For multi-line comments: 
+        /*
+            This is an example program
+            that only generates a simple
+            text output using the "fmt" package
+        */
