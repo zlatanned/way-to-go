@@ -11,11 +11,14 @@
 
 ##Imports
 
-    Apart from main, Go has many packages that can be imported and used in the code to accomplish different tasks.
-
+    => Apart from main, Go has many packages that can be imported and used in the code to accomplish different tasks.
     One of the most popular packages is "fmt", which stands for format, and provides input and output functionality.
-
     To import a package, we use the import statement:
         
         For single import: import "fmt" 
         For single or multiple : import ( "fmt" "shahi" "zlatan")
+
+    => Each package has exported names, which you can access after importing them.
+    In Go, a name is exported if it begins with a capital letter.
+    You can access the exported names using the package name, a dot, and the exported name.
+    For example, we access the Println() function of the "fmt" package,
