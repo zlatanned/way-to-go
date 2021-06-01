@@ -21,4 +21,7 @@
     => Each package has exported names, which you can access after importing them.
     In Go, a name is exported if it begins with a capital letter.
     You can access the exported names using the package name, a dot, and the exported name.
-    For example, we access the Println() function of the "fmt" package,
+    For example, we access the Println() function of the "fmt" package
+    
+    => Similar to other programming languages such as Java or C++, func main() is the entry point of our program.
+    It is the function that gets executed when we run our program.
