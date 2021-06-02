@@ -33,5 +33,5 @@
             This is an example program
             that only generates a simple
             text output using the "fmt" package
-            loving you is a beautiful
+            loving you is a beautiful game
         */
