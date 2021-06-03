@@ -56,3 +56,7 @@
 ## Switch (code available)
     => A switch statement is a shorter way of writing a sequence of if/else statements.
     Note : In Go, the break statement is not needed, as the switch cases evaluate from top to bottom, stopping when a case succeeds.
+
+## Loops (code available)
+    => Way 1: for i := 1; i <= 3; i++ { // something }
+    => Way 2 : for sum <= 1000 {//something} (similar to while in other languages)
