@@ -52,3 +52,6 @@
 
 ## Conditional Statements - if else example added (code available)
     => Note: Go doesn't support ternany operators. You need to use traditional if-else.
+
+## Switch (code available)
+    => A switch statement is a shorter way of writing a sequence of if/else statements.
