@@ -34,3 +34,18 @@
         Now, pi is a constant and cannot be changed.
 
         Note: Constants cannot be declared using the := syntax.
+        
+## Operators - arithmatic, relational and logical (code available)
+
+## Taking Input
+    => The "fmt" package also allows you to take input from the user of the program.
+        To take input, we need to use the Scanln() function and provide it with the variable which should hold the input value:
+            package main
+            import "fmt"
+
+            func main() {
+              var input string
+              fmt.Scanln(&input)
+              fmt.Println(input) 
+            }
+    => Note the ampersand '&' before the variable name -- it is used to return the address of a variable.
