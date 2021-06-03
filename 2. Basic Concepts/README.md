@@ -15,3 +15,14 @@
             Way 2 -> var i, j = 8, 42
             Way 3 -> i := 8 (Go supports short variable declaration using :=)
             Way 4 -> x, y := 10, 5
+
+## Data Types
+    
+    => We used int to declare integer values -> var i int = 8 
+        Other common types Go supports:
+        float32 - a single-precision floating point value.
+        float64 - a double-precision floating point value.
+        string - a text value.
+        bool - Boolean true or false.
+        
+        Note: The difference between float32 and float64 is the precision, meaning that float64 will represent the number with higher accuracy, but will take more space in memory.
