@@ -49,3 +49,6 @@
               fmt.Println(input) 
             }
     => Note the ampersand '&' before the variable name -- it is used to return the address of a variable.
+
+## Conditional Statements - if else example added (code available)
+    => Note: Go doesn't support ternany operators. You need to use traditional if-else.
