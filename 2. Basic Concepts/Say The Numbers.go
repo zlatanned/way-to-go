@@ -17,10 +17,7 @@ package main
 import "fmt"
 
 func main() {
-    //your code goes here
-    var num1 int
-    var num2 int
-    var num3 int
+    var num1, num2, num3 int
     fmt.Scanln(&num1)
     fmt.Scanln(&num2)
     fmt.Scanln(&num3)
