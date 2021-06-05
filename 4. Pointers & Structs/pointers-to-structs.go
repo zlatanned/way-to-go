@@ -1,3 +1,4 @@
+//Pointers to structs are automatically dereferenced, meaning we can access the field values by simply using a dot
 //We could use (*p).age to access the age field of the struct, but that looks complicated and hard to read. Go allows you to shorten that syntax and simply use p.age instead.
 
 package main
