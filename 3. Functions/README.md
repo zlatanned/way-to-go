@@ -30,4 +30,11 @@
     => Note: defer is often used for cleanup, for example, to release resources used by the code, such as files, connections, etc.
     
 ## Multiple Defer (Code available)
-    => If you have deferred multiple function calls, they will execute in last-in-first-out order. The defer calls are stacked on top of each other, which is why they are executed         in last-in-first-out order.
+    => If you have deferred multiple function calls, they will execute in last-in-first-out order. 
+    The defer calls are stacked on top of each other, which is why they are executed in last-in-first-out order.
+    
+## Scope (Code available)
+    => Scope is where a variable can be used.
+        There are two main scopes in Go: local and global.
+        A variable defined in the function is called a local variable. Their scope is only in the function body, which means they only exist within their function.
+        Note:Global variables are often considered a bad practice. It is better to pass variables as function arguments.
