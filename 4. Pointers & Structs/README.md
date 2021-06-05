@@ -43,3 +43,14 @@
         Pointers to structs are automatically dereferenced, meaning we can access the field values by simply using a dot:
         We could use (*p).age to access the age field of the struct, but that looks complicated and hard to read.
         Go allows you to shorten that syntax and simply use p.age instead.
+        
+ ## Methods
+    We can add functionality to our structs using methods! Methods are simply functions with a special receiver argument.
+    Let's have a look at an example:
+            func (x Contact) welcome() {
+              fmt.Println(x.name)
+              fmt.Println(x.age)
+            } 
+    The receiver appears between the func keyword and the method name.
+    In the example above, the receiver is the Contact struct.
+    Note that we can access the receiver structs fields in the method.
