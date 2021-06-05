@@ -19,3 +19,8 @@
             Eg: func sum(x, y int) int {
                     return x+y
                 }
+                
+##  Multiple Return (Code available)
+    => func swap(x, y int) (int, int) {
+            return y, x
+        }
