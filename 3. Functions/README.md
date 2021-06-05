@@ -24,3 +24,10 @@
     => func swap(x, y int) (int, int) {
             return y, x
         }
+
+## Defer (Code available)
+    => A defer statement ensures that the function is called only after the surrounding function returns.
+    => Note: defer is often used for cleanup, for example, to release resources used by the code, such as files, connections, etc.
+    
+## Multiple Defer (Code available)
+    => If you have deferred multiple function calls, they will execute in last-in-first-out order. The defer calls are stacked on top of each other, which is why they are executed         in last-in-first-out order.
