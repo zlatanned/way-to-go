@@ -36,7 +36,7 @@
             x := Contact{name: "James", age: 42}
         This makes it easier to read the code.
         
- ## Pointers to Structs
+ ## Pointers to Structs (Code Available)
     => Similar to simple pointers, we can also make pointers to structs using the & operator:
         x := Contact{"James", 42}
         p := &x
