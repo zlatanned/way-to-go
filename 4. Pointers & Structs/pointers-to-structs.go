@@ -12,6 +12,7 @@ type Contact struct {
 
 func main() {
   x := Contact{"James", 42}
+  // or x := &Contact{"James", 42} is also allowed, and then we need to print x.age and not p.age. Also next line wont be required
   p := &x
 
   fmt.Println(p.age) //42
