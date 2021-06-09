@@ -26,3 +26,13 @@
     Note: You can omit the low or the high bound.
     Omitting the low bound will take the value 0, while omitting the high bound will take the length of the array.
     For example: a[:3] will take the first 3 elements of the array.
+    
+    Go provides a make() function to create slices. This is how you create dynamically-sized arrays.
+
+      For example => a := make([]int, 5)
+    The make function creates an array of the given type and size, and returns a slice that refers to that array.
+
+    After creating a slice, we can add append new elements to it using the append() function:
+    The append() function takes the slice as its first argument and the elements to be added to the end of the slice as its next argument.
+    It then returns a new slice, containing the old slice plus the new elements appended.
+    You can append multiple values at once by just comma separating the values as arguments, for example: append(s, 1, 2, 3)
