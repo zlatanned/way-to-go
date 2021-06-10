@@ -27,6 +27,7 @@
     Omitting the low bound will take the value 0, while omitting the high bound will take the length of the array.
     For example: a[:3] will take the first 3 elements of the array.
     
+  ## make()
     Go provides a make() function to create slices. This is how you create dynamically-sized arrays.
 
       For example => a := make([]int, 5)
