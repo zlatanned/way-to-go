@@ -30,7 +30,7 @@
   ## make()
     Go provides a make() function to create slices. This is how you create dynamically-sized arrays.
 
-      For example => a := make([]int, 5)
+        For example => a := make([]int, 5)
     The make function creates an array of the given type and size, and returns a slice that refers to that array.
 
     After creating a slice, we can add append new elements to it using the append() function:
