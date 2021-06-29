@@ -37,3 +37,12 @@
     It then returns a new slice, containing the old slice plus the new elements appended.
     You can append multiple values at once by just comma separating the values as arguments.
       For example: append(s, 1, 2, 3)
+      
+  ## Range
+    Now that we know how to create arrays and slices, let's learn how to iterate over their elements using a loop!
+
+    The range form of the for loop allows you to iterate over a slice: (Code available: range-for-loop.go)
+    During each iteration of the loop, it returns two values: the index of the element and its value.
+
+    If you want only the values, you can skip the index using an underscore:
+    You can use ranges for slices as well as arrays.
