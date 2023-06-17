@@ -30,7 +30,7 @@
 ## Constants
     => In some cases your program may need values that are preserved during the program. These are called constants and they cannot be changed from their initial value.
         Constants are declared like variables, but with the const keyword and need to be assigned a value:
-            cont pi = 3.14
+            const pi = 3.14
         Now, pi is a constant and cannot be changed.
 
         Note: Constants cannot be declared using the := syntax.
